@@ -60,7 +60,22 @@ ul{
     color: rgb(66, 176, 219);
 }
 
+.archive{
+    padding: 50px 0px;
+}
+.archive a{
+    color: #ccd6f6;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 550;
+}
+.archive i{
+    position: relative;
+    left: 8px;
+    font-size: 1.1em;
+    color: #ccd6f6;
 
+}
 /* main */
     
 .main{
@@ -149,6 +164,7 @@ ul{
 
 .content,
 .exp-content{
+    position: relative;
     margin-top: 20px;
     width: 100%;
     height: auto;
@@ -189,10 +205,9 @@ ul{
     padding: 20px 0px 0px 20px;
 }
 .proj-discrpt{
-    display: block;
     padding: 20px 15px;
     position: absolute;
-    top: 43.5%;
+    top: 120px;
     right: 0;
     z-index: 1;
     width: 80%;
@@ -218,6 +233,7 @@ ul{
     color: hsl(230, 30%, 80%);
     border: 3px solid #1a2a4e;
     background-color: #1a2a4efa;
+    transition: 1s;
 }
 
 .proj-lang{
@@ -243,16 +259,18 @@ ul{
     
 }
 .get-in-touch{
-    color:aliceblue;
+    color:#ccd6f6;
     font-size: 1.4em;
     font-weight: 600;
     margin: 20px 0px;
 }
 .contact p{
-    color: aliceblue;
+    color: #8892b0;
     font-size: .9em;
+    padding-top: 70px;
     text-align: center;
-    margin-top: 70px;
+    margin: auto;
+    width: 75%;
 }
 
 #contactForm{
@@ -351,7 +369,7 @@ label{
 @media screen and (max-width: 1200px){
     body{
         padding:0px 150px 0px 150px;
-        background-color: #050823;
+        background-color: #23051f;
     
     }
     header{
@@ -478,24 +496,6 @@ label{
         margin-top: 80px;
     }
     
-    #go-proj-one{
-        position: relative;
-        top: 6px;
-    }
-    #go-proj-two{
-        position: relative;
-        top: 6px;
-    }
-    
-    .content,
-    .exp-content{
-        margin-top: 20px;
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        border-radius: 5px;
-    
-    }
     .exp-content:hover,
     .content:hover{
         background-color: rgba(255, 255, 255, 0.1);
@@ -532,16 +532,9 @@ label{
         display: block;
         padding: 20px 15px;
         position: absolute;
-        top: 43.5%;
+        top: 85px;
         right: 0;
         z-index: 1;
-        width: 80%;
-        border-radius: 10px;
-        font-weight: 500;
-        font-size: .9em;
-        color: hsl(230, 30%, 80%);
-        border: 3px solid #1a2a4e;
-        background-color: #1a2a4efa;
     
     }
     .proj-two-discrpt{
@@ -573,110 +566,7 @@ label{
         text-align: center;
         font-size: .8em;
     }
-    
-    
-    /* contact */
-    
-    .contact{
-        width: 100%;
-        margin-bottom: 200px;
-        
-    }
-    .get-in-touch{
-        color:aliceblue;
-        font-size: 1.4em;
-        font-weight: 600;
-        margin: 20px 0px;
-    }
-    .contact p{
-        color: aliceblue;
-        font-size: .9em;
-        text-align: center;
-        margin-top: 70px;
-    }
-    
-    #contactForm{
-        margin-top: 30px;
-        display: none;
-        width: 100%;
-        position: relative;
-        padding: 20px 0px 0px 30px;
-    
-        
-    }
-    .form-group input{
-        border-radius: 5px;
-        background-color: #1a2a4efa;
-        margin-right: 10px;
-        padding: 10px;
-        width: 265px;
-        color: white;
-        margin-bottom: 15px;
-        border: 1px solid #29417afa ;
-        justify-content: space-between;
-    
-    }
-    input:focus {
-        outline: none;
-        border: 1px solid rgb(66, 176, 219);
-    }
-    .form-group textarea{
-        margin-top: 5px;
-        width: 90%;
-        margin-right: 20px;
-        background-color: #1a2a4efa;
-        border-radius: 5px;
-        border: 1px solid #29417afa ;
-        resize: none;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        padding: 10px;
-        color: white;
-    }
-    textarea:focus{
-        outline: none;
-        border: 1px solid rgb(66, 176, 219);
-    }
-    
-    .form-submit input{
-        position: relative;
-        left: 490px;
-        margin-top: 10px;
-        background-color: #1a2a4efa;
-        color: aliceblue;
-        padding: 8px 25px;
-        border-radius: 5px;
-        border: none;
-    }
-    .form-submit input:hover{
-        background-color: #1a2a4efa;
-        border: 1px solid rgb(66, 176, 219);
-    }
-    label{
-        color: white;
-    }
-    
-    .contact button{
-        display: inline-block;
-        background-color: #1a2a4efa;
-        padding: 10px 25px;
-        border-radius: 5px;
-        border: 1px solid #213666fa;
-    }
-    .contact a{
-        text-decoration: none;
-        color: white;
-        font-weight: 400;
-    
-    }
-    .get-in-touch button:hover{
-        border: 1px solid rgb(66, 176, 219);;
-    }
-    .get-in-touch{
-        text-align: center;
-        margin-top: 40px;
-    }
+
 }
 /* max width 600px */
 @media screen and (max-width: 600px){
@@ -688,7 +578,7 @@ label{
     header{
         position: relative;
         width: 100%;
-        padding: 100px 0 0 0px;
+        padding: 50px 0 0 0px;
         height: auto;
     }
     .hero{
@@ -700,6 +590,9 @@ label{
     }
     .hero p{
         width: 100%;
+        margin-top: 10px;
+        font-weight: 450;
+        font-size: .85em;
     }
     .nav{
         display: none;
@@ -707,12 +600,12 @@ label{
     }
     
     .social{
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .social a{
-        color: hsl(225, 100%, 95%);
-        font-size: 1.5em;
-        padding: 8px;
+        color: #8892b0;
+        font-size: 1.4em;
+        padding: 5px;
         background-color: transparent;
     }
     
@@ -728,17 +621,20 @@ label{
     }
     .head{
         color:hsl(225, 100%, 95%);
-        font-size: 1.2em;
+        font-size: 1em;
         margin-top: 100px;
     }
     .about-me{
         color:hsl(225, 100%, 95%);
         font-size: 1em;
+        font-weight: 600;
     }
     .about p{
-        color:hsl(224, 13%, 65%);
-        font-weight: 500;
-        padding: 10px 0 0 0px;
+        color: #8892b0;
+        font-weight: 450;
+        font-size: .85em;
+        padding: 20px 0px 10px 0px;
+        line-height: 1.9em;
     }
     .details {
         display: flex;
@@ -757,7 +653,7 @@ label{
         padding-right: 5px;
     }
     .program-lang li{
-        color: hsl(224, 13%, 65%);;
+        color: #8892b0;;
         font-size: .75em;
         padding-bottom: 3px;
     }
@@ -782,18 +678,17 @@ label{
         margin-bottom: 10px;
     }
     .discrpt{
-        color: hsl(224, 13%, 60%);
-        font-weight: 500;
-        font-size: .85em;
-        padding: 0px 0px;
+        color: #8892b0;
+        font-weight: 450;
+        font-size: .8em;
+        line-height: 1.7em;
 
     }
     .year-exp p{
         display: block;
-        padding-top: 3px;
         color:hsl(224, 13%, 60%) ;
-        font-size: .9em;
-        padding: 0px 0px;
+        font-size: .8em;
+        padding: 15px 0px 5px 0px;
     
     }
     /* project */
@@ -857,12 +752,13 @@ label{
         display: block;
         padding: 5px 10px;
         position: absolute;
-        top: 52%;
+        top: 70px;
         right: 8px;
         z-index: 1;
         width: 85%;
         border-radius: 10px;
-        font-weight: 500;
+        font-weight: 350;
+        line-height: 1.2em;
         font-size: .7em;
         color: hsl(230, 30%, 80%);
         border: 3px solid #1a2a4e;
@@ -873,12 +769,13 @@ label{
         display: block;
         padding: 5px 10px;
         position: absolute;
-        bottom: 25%;
+        bottom: 80px;
         left: 8px;
         z-index: 1;
         width: 80%;
         border-radius: 10px;
-        font-weight: 500;
+        font-weight: 350;
+        line-height: 1.2em;
         font-size: .7em;
         color: hsl(230, 30%, 80%);
         border: 3px solid #1a2a4e;
@@ -890,98 +787,38 @@ label{
     }
     .proj-lang a{
         color: hsl(230, 30%, 80%);
-        font-weight: 400;
+        font-weight: 450;
         background-color: #1a2a4e;
         margin-right: 5px;
-        padding: 3px 10px;
+        padding: 5px 10px;
         border-radius: 20px;
         text-align: center;
-        font-size: .6em;
+        font-size: .7em;
+        
     }
+    .archive{
+        padding: 25px 0px;
+    }
+    .archive a{
+        color: #ccd6f6;
+        text-decoration: none;
+        font-size: .8em;
+        font-weight: 550;
+    }
+    .archive i{
+        position: relative;
+        left: 8px;
+        font-size: .9em;
+        color: rgb(66, 176, 219);
     
+    }
     
     /* contact */
-    
     .contact{
         width: 100%;
-        margin-bottom: 200px;
+        margin-bottom: 450px;
         
     }
-    .get-in-touch{
-        color:aliceblue;
-        font-size: 1.4em;
-        font-weight: 600;
-        margin: 20px 0px;
-    }
-    .contact p{
-        color: aliceblue;
-        font-size: .9em;
-        text-align:center;
-        margin-top: 50px;
-    }
-    
-    #contactForm{
-        margin-top: 30px;
-        display: none;
-        width: 100%;
-        position: relative;
-        padding: 20px 0px 0px 30px;
-    
-        
-    }
-    .form-group input{
-        border-radius: 5px;
-        background-color: #1a2a4efa;
-        margin-right: 10px;
-        padding: 10px;
-        width: 265px;
-        color: white;
-        margin-bottom: 15px;
-        border: 1px solid #29417afa ;
-        justify-content: space-between;
-    
-    }
-    input:focus {
-        outline: none;
-        border: 1px solid rgb(66, 176, 219);
-    }
-    .form-group textarea{
-        margin-top: 5px;
-        width: 90%;
-        margin-right: 20px;
-        background-color: #1a2a4efa;
-        border-radius: 5px;
-        border: 1px solid #29417afa ;
-        resize: none;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        padding: 10px;
-        color: white;
-    }
-    textarea:focus{
-        outline: none;
-        border: 1px solid rgb(66, 176, 219);
-    }
-    
-    .form-submit input{
-        position: relative;
-        left: 490px;
-        margin-top: 10px;
-        background-color: #1a2a4efa;
-        color: aliceblue;
-        padding: 8px 25px;
-        border-radius: 5px;
-        border: none;
-    }
-    .form-submit input:hover{
-        background-color: #1a2a4efa;
-        border: 1px solid rgb(66, 176, 219);
-    }
-    label{
-        color: white;
-    }
-    
     .contact button{
         display: inline-block;
         background-color: #1a2a4efa;
@@ -995,11 +832,18 @@ label{
         font-weight: 400;
     
     }
+    .contact p{
+        color: #8892b0;
+        text-align: justify;
+        font-size: .9em;
+        width: 100%;
+        padding-top: 20px ;
+    }
     .get-in-touch button:hover{
         border: 1px solid rgb(66, 176, 219);;
     }
     .get-in-touch{
         text-align: center;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 }
