@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="table.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/arrow-up-right?f=classic&s=regular">
+    <script src="https://kit.fontawesome.com/fadd53f7ee.js" crossorigin="anonymous"></script>
+    <title>Archive | Jerwin Abanilla</title>
+</head>
+<body>
+     <div class="header">
+        <div class="back-main">
+            <i class="fa-solid fa-arrow-left" id="arrow-left"></i><a href="index.html" id="">Jerwin Abanilla</a>
+        </div>
+        <h1 class="title">All Projects</h1>
+     </div>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Project</th>
+            <th>Made at</th>
+            <th>Build with</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Porfolio</td>
+            <td>Ea Internet Cafe</td>
+            <td><span>JavaScrip</span>
+                <span>CSS</span>
+                <span>Html</span></td>
+            <td class="link"><a href="https://github.com/abanillajrwn/mikmon-hotspot-template" target="_blank">Github <i class="fa-brands fa-github"></i></a></td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Mikrotik Wifi Template</td>
+            <td>Ea Internet Cafe</td>
+            <td><span>Mikrotik</span>
+                <span>JavaScrip</span>
+                <span>CSS</span>
+                <span>Php</span></td>
+            <td class="link"><a href="https://github.com/abanillajrwn/mikmon-hotspot-template" target="_blank">Github <i class="fa-brands fa-github"></i></a></td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Notepad</td>
+            <td>Ea Internet Cafe</td>
+            <td><span>Html</span>
+                <span>CSS</span>
+                <span>JavaScrip</span></td>
+            <td class="link"><a href="https://example.com/project1">Project 1 Link</a></td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>Student Grading System</td>
+            <td></td>
+            <td><span>C sharp</span>
+                <span>CSS</span>
+                <span>SQL</span>
+                <span>XSLT</span>
+                <span>.Net</span></td>
+            <td class="link"><a href="https://github.com/abanillajrwn/grading-system-proj" target="_blank">Github</a><i class="fa-brands fa-github"> <i class="fa-solid fa-up-right-from-square" id="go-proj-one"></i></td>
+        </tr>
+    </table>
+
+    <script>
+        // document.addEventListener('DOMContentLoaded', function() {
+        //     const links = document.querySelectorAll('a');
+            
+        //     links.forEach(function(link) {
+        //         link.addEventListener('mouseover', function() {
+        //             link.style.textDecoration = 'none';  // Remove underline on hover
+        //             link.style.fontWeight = 'bold';  // Apply bold font weight on hover
+        //         });
+                
+        //         link.addEventListener('mouseout', function() {
+        //             link.style.textDecoration = 'underline';  // Restore underline on mouseout
+        //             link.style.fontWeight = 'normal';  // Remove bold font weight on mouseout
+        //         });
+        //     });
+        // });
+        const arrowLeft = document.querySelector('#arrow-left');
+        document.querySelector('.back-main').addEventListener('mouseover', () =>{
+            arrowLeft.style.right = '5px';
+        })
+        document.querySelector('.back-main').addEventListener('mouseout', () =>{
+            arrowLeft.style.right = '0px';
+        })
+    </script>
+</body>
+</html>
