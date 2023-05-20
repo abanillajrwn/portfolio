@@ -55,3 +55,16 @@ document.querySelector('.proj-two-img').addEventListener('mouseover', () => {
 document.querySelector('.proj-two-img').addEventListener('mouseout', () => {
     document.querySelector('.proj-two-discrpt').style.display = 'block';
 })
+
+//archive
+
+document.querySelector('.archive').addEventListener('mouseover', () =>{
+    document.querySelector('#arrow-right').style.left = '15px';
+    document.querySelector('#arrow-right').style.color = 'rgb(66, 176, 219)';
+    document.querySelector('#go-home').style.color = 'rgb(66, 176, 219)';
+})
+document.querySelector('.archive').addEventListener('mouseout', () =>{
+    document.querySelector('#arrow-right').style.left = '8px';
+    document.querySelector('#arrow-right').style.color = '#ccd6f6';
+    document.querySelector('#go-home').style.color = '#ccd6f6';
+})
