@@ -10,7 +10,7 @@ body{
 
 }
 .header{
-    margin: 50px;
+    margin: 50px 0px 0px 50px;
 
 }
 .back-main{
@@ -37,7 +37,7 @@ body{
 table {
     border-collapse: collapse;
     width: 100%;
-    margin: 50px;
+    margin-left: 50px;
 
 }
 
@@ -108,14 +108,14 @@ th {
     }
     
     .header h1{
-        color:white;
+        color:#ccd6f6;
         font-size: 1.8em;
     }
     
     table {
         border-collapse: collapse;
-        width: 100%;
-        margin: 20px;
+        width: 90%;
+        margin-left: 20px;
     
     }
     
@@ -143,7 +143,9 @@ th {
     }
     td:nth-child(2) {
         font-weight: 500;
-        color: white;
+        color: #ccd6f6;
+        font-size: 1em;
+        width: 80%;
     }
     td:nth-child(3) {
         display: none;
