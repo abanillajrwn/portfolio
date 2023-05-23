@@ -369,7 +369,7 @@ label{
 @media screen and (max-width: 1200px){
     body{
         padding:0px 150px 0px 150px;
-        background-color: #23051f;
+        background-color: #050823;
     
     }
     header{
@@ -567,6 +567,296 @@ label{
         font-size: .8em;
     }
 
+}
+/* 800px max width */
+@media screen and (max-width: 850px){
+    body{
+        padding:0px 20px 0px 30px;
+        background-color: #050823;
+    
+    }
+    header{
+        position: fixed;
+        width: 40%;
+        padding: 30px 0 0 0px;
+        height: auto;
+    }
+    .hero{
+        width: 100%;
+    }
+    .hero h1{
+        color: #ccd6f6;
+        font-size:2em;
+    }
+    .hero p{
+        width: 90%;
+        color: #8892b0;
+        font-size:.7em;
+    }
+    .nav{
+        padding: 20px;
+        margin-top: 10px;
+        margin-left: 50px;
+    
+    }
+    .nav li{
+        padding-top: 5px;
+    }
+    .nav a{
+        color: #ccd6f6;
+        text-decoration: none;
+        font-weight: 550;
+        font-size: 12px;
+    }
+    
+    .social{
+        margin-top: 40px;
+        position: relative;
+        bottom: 0px;
+    }
+    .social a{
+        color: #ccd6f6;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .social a:hover{
+        color: rgb(66, 176, 219);
+    }
+    
+    .archive{
+        padding: 20px 0px;
+    }
+    .archive a{
+        color: #ccd6f6;
+        text-decoration: none;
+        font-size: .8em;
+        font-weight: 550;
+    }
+    .archive i{
+        position: relative;
+        left: 8px;
+        font-size: .8em;
+        color: rgb(66, 176, 219);
+    
+    }
+    /* main */
+        
+    .main{
+        margin-top: 30px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        width: 50%;
+        height: auto;
+    }
+    .head{
+        color:hsl(225, 100%, 95%);
+        font-size: 1em;
+        margin-top: 100px;
+    }
+    .about-me{
+        color:hsl(225, 100%, 95%);
+        font-size: 1em;
+    }
+    .about p{
+        color:hsl(224, 13%, 65%);
+        font-weight: 450;
+        font-size: .85em;
+        line-height: 1.7em;
+    }
+    .details {
+        display: flex;
+    }
+    .details i{
+        color: hsl(225, 100%, 95%);
+        padding-left:10px;
+        font-size: 10px;
+    }
+    .program-lang{
+        padding-left: 20px;
+    }
+    .program-lang i{
+        color: rgb(66, 176, 219);
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    .program-lang li{
+        color: hsl(224, 13%, 65%);;
+        font-size: .75em;
+        padding-bottom: 3px;
+    }
+    /* experince */
+    
+    .exp-content{
+        display: flex;
+    }
+    .experience .exp-details{
+        width: 90%;
+    }
+    .exp-content .title{
+        font-weight: 500;
+    }
+    .exp-details .title {
+        color: hsl(225, 100%, 95%);
+        margin-bottom: 10px;
+    }
+    .discrpt{
+        color: #8892b0;
+        font-weight: 450;
+        line-height: 1.7em;
+        font-size: .85em;
+    }
+    .year-exp p{
+        display: block;
+        padding-top: 3px;
+        padding-right: 5px;
+        color:hsl(224, 13%, 60%) ;
+        font-size: .75em;
+        width: 90px;
+    
+    }
+    /* project */
+    .project{
+        margin-top: 80px;
+    }
+    
+    #go-proj-one{
+        position: relative;
+        top: 0px;
+    }
+    #go-proj-two{
+        position: relative;
+        top: 0px;
+    }
+    
+    .content,
+    .exp-content{
+        position: relative;
+        margin-top: 20px;
+        width: 90%;
+        height: auto;
+        padding: 0px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+    
+    }
+    .exp-content:hover,
+    .content:hover{
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .proj-img{
+        position: relative;
+        width: 80%;
+        height: 200px;
+    }
+    .proj-two-img{
+        width: 65%;
+        height: 200px;
+        position: relative;
+        left: 120px;
+    }
+    .details .title {
+        color: hsl(225, 100%, 95%);
+        margin-bottom: 10px;
+        font-size: .8em;
+    }
+    .details p{
+        margin-top: 5px;
+        letter-spacing: .5px;
+    }
+    .title:hover{
+        color:rgb(66, 176, 219);
+    }
+    .about-discrpt{
+        color: hsl(224, 13%, 60%);
+        font-weight: 500;
+        font-size: .95em;
+        padding: 20px 0px 0px 20px;
+    }
+    .proj-discrpt{
+        padding: 10px 5px;
+        position: absolute;
+        top: 55px;
+        right: 30px;
+        z-index: 1;
+        width: 80%;
+        border-radius: 10px;
+        font-weight: 450;
+        font-size: .8em;
+        color: hsl(230, 30%, 80%);
+        border: 3px solid #1a2a4e;
+        background-color: #1a2a4efa;
+    
+    }
+    .proj-two-discrpt{
+        display: block;
+        padding: 10px 5px;
+        position: absolute;
+        bottom: 65px;
+        left: 20px;
+        z-index: 1;
+        width: 80%;
+        border-radius: 10px;
+        font-weight: 450;
+        font-size: .8em;
+        color: hsl(230, 30%, 80%);
+        border: 3px solid #1a2a4e;
+        background-color: #1a2a4efa;
+        transition: 1s;
+    }
+    
+    .proj-lang{
+        margin-top: 5px;
+    }
+    .proj-lang a{
+        color: #ccd6f6;
+        font-weight: 450;
+        background-color: #1a2a4e;
+        margin-right: 5px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: .7em;
+    
+    }
+    /* contact */
+    
+    .contact{
+        width: 95%;
+        margin-bottom: 450px;
+        
+    }
+    .contact h1{
+        color: #ccd6f6;
+    }
+    .contact button{
+        display: inline-block;
+        background-color: #1a2a4efa;
+        padding: 10px 25px;
+        border-radius: 5px;
+        border: 1px solid #213666fa;
+    }
+    .contact a{
+        text-decoration: none;
+        color: #ccd6f6;
+        font-weight: 400;
+    
+    }
+    .contact p{
+        color: #8892b0;
+        text-align: center;
+        font-size: .9em;
+        width: 100%;
+        padding-top: 20px ;
+    }
+    .get-in-touch button:hover{
+        border: 1px solid rgb(66, 176, 219);;
+    }
+    .get-in-touch{
+        text-align: center;
+        margin-top: 50px;
+    }
 }
 /* max width 600px */
 @media screen and (max-width: 600px){
