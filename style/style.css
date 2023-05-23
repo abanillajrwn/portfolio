@@ -569,7 +569,7 @@ label{
 
 }
 /* 800px max width */
-@media screen and (max-width: 850px){
+@media screen and (max-width: 800px){
     body{
         padding:0px 20px 0px 30px;
         background-color: #050823;
