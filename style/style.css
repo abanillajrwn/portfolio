@@ -953,6 +953,7 @@ label{
         width: 100%;
         padding: 0px 0px;
         margin: 0;
+        background-color: transparent;
 
     }
     .experience .exp-details{
