@@ -569,7 +569,7 @@ label{
 
 }
 /* 800px max width */
-@media screen and (orientation: landscape){
+@media screen and (max-width: 900px){
     body{
         padding:0px 20px 0px 30px;
         background-color: #050823;
