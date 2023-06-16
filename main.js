@@ -68,3 +68,15 @@ document.querySelector('.archive').addEventListener('mouseout', () =>{
     document.querySelector('#arrow-right').style.color = '#ccd6f6';
     document.querySelector('#go-home').style.color = '#ccd6f6';
 })
+
+//resume
+document.querySelector('.resume').addEventListener('mouseover', () =>{
+    document.querySelector('#arrow-resume').style.left = '15px';
+    document.querySelector('#arrow-resume').style.color = 'rgb(66, 176, 219)';
+    document.querySelector('#resume').style.color = 'rgb(66, 176, 219)';
+})
+document.querySelector('.resume').addEventListener('mouseout', () =>{
+    document.querySelector('#arrow-resume').style.left = '8px';
+    document.querySelector('#arrow-resume').style.color = '#ccd6f6';
+    document.querySelector('#resume').style.color = '#ccd6f6';
+})

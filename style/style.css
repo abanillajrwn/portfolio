@@ -44,7 +44,9 @@ ul{
     text-decoration: none;
     font-weight: 550;
 }
-
+.nav a:hover{
+    color: rgb(66, 176, 219);
+}
 .social{
     margin-top: 100px;
     position: relative;
@@ -60,15 +62,18 @@ ul{
     color: rgb(66, 176, 219);
 }
 
+.resume,
 .archive{
-    padding: 50px 0px;
+    padding: 25px 0px;
 }
+.resume a,
 .archive a{
     color: #ccd6f6;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 550;
 }
+.resume i,
 .archive i{
     position: relative;
     left: 8px;
@@ -112,12 +117,12 @@ ul{
 }
 .program-lang i{
     color: rgb(66, 176, 219);
-    font-size: 15px;
+    font-size: 13px;
     padding-right: 10px;
 }
 .program-lang li{
     color: hsl(224, 13%, 65%);;
-    font-size: 1em;
+    font-size: .9em;
     padding-bottom: 3px;
 }
 /* experince */
@@ -569,7 +574,7 @@ label{
 
 }
 /* 800px max width */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 860px){
     body{
         padding:0px 20px 0px 30px;
         background-color: #050823;
@@ -622,16 +627,18 @@ label{
     .social a:hover{
         color: rgb(66, 176, 219);
     }
-    
+    .resume,
     .archive{
         padding: 20px 0px;
     }
+    .resume a,
     .archive a{
         color: #ccd6f6;
         text-decoration: none;
         font-size: .8em;
         font-weight: 550;
     }
+    .resume i,
     .archive i{
         position: relative;
         left: 8px;
@@ -1086,15 +1093,18 @@ label{
         font-size: .7em;
         
     }
+    .resume,
     .archive{
         padding: 25px 0px;
     }
+    .resume a,
     .archive a{
         color: #ccd6f6;
         text-decoration: none;
         font-size: .8em;
         font-weight: 550;
     }
+    .resume i,
     .archive i{
         position: relative;
         left: 8px;
